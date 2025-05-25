@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire Utilisateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formulaire de Contact">
+    <h1>Formulaire de Contact</h1>
+    <form method="POST" action="reponse2.php">
+        <label for="nom">Nom :</label>
+        <input type="text" name="nom" id="nom" required><br>
+
+        <label for="prenom">Prénom :</label>
+        <input type="text" name="prenom" id="prenom" required><br>
+
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" required><br><label>Âge :</label><br>
+<select name="age" required>
+    <option value="">-- Sélectionnez votre âge --</option>
+    <option value="18">18 ans</option>
+    <option value="19">19 ans</option>
+    <option value="20">20 ans</option>
+    <option value="21">21 ans</option>
+    <option value="22">22 ans</option>
+    <option value="23">23 ans</option>
+    <option value="24">24 ans</option>
+    <option value="25">25 ans</option>
+    <option value="26">26 ans</option>
+    <option value="27">27 ans</option>
+    <option value="28">28 ans</option>
+    <option value="29">29 ans</option>
+    <option value="30">30 ans</option>
+</select><br><br>
+<label for="filiere">Filière :</label><br>
+<select name="filiere" id="filiere" required>
+    <option value="">-- Sélectionnez votre filière --</option>
+    <option value="SMI">SMI</option>
+    <option value="IGE">IGE</option>
+    <option value="SMP">SMP</option>
+    <option value="LAE">LAE</option>
+</select><br><br>
+        <label for="message">Message :</label><br>
+        <textarea name="message" id="message" rows="5" cols="30"></textarea><br>
+
+        <button type="submit">Envoyer </button>
+    </form>
+</div>
+</body>
+</html>
