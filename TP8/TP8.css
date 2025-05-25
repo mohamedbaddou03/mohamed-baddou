@@ -1,0 +1,88 @@
+ body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+	  padding: 20px;
+      color: #333;
+    }
+
+    h1 {
+      color: #005f99;
+      border-bottom: 2px solid #005f99;
+      padding-bottom: 5px;
+    }
+
+    h2 {
+      color: #007acc;
+      margin-top: 30px;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 15px;
+      margin-bottom: 30px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      max-width: 400px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    input[type="number"],
+    input[type="text"],
+    input[type="email"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 7px;
+      margin-top: 5px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    button, input[type="submit"] {
+      background-color: #005f99;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      margin-top: 15px;
+      cursor: pointer;
+      border-radius: 3px;
+      font-size: 15px;
+    }
+
+    button:hover, input[type="submit"]:hover {
+      background-color: #004a7c;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    p b {
+      color: #005f99;
+    }
+
+    .message {
+    background-color: #f8f9fa;
+    border-left: 4px solid #6c757d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: #212529;
+}
+
+   

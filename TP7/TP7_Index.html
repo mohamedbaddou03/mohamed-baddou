@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire PHP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulaire d'inscription</h1>
+    <hr>
+    <form action="../TP7/TP7_reponse.php" method="POST">
+        <select name="titre">
+            <option>M.</option>
+            <option selected>Mme</option>
+            <option>Autre</option>
+        </select>
+        
+        <label for="nom">Nom : </label>
+        <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" required>
+        <br><br>
+		
+        <label for="prenom">Prénom : </label>
+        <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom" required>
+         <br><br>
+		 
+        <label for="annee">Votre année de naissance : </label>
+        <input type="text" name="annee" id="annee" placeholder="2019" required>
+        
+        <label for="identifiant">Identifiant : </label>
+        <input type="text" name="identifiant" id="identifiant" placeholder="id" required>
+        
+        <label for="mdp">Donnez un mot de passe : </label>
+        <input type="password" name="mdp" id="mdp" placeholder="Mot de passe sécurisé" required>
+        
+        
+            <label for="sexe">Sexe :</label>
+            <input type="radio" name="sexe" id="masculin" value="M" checked> Masculin
+            
+            <input type="radio" name="sexe" id="feminin" value="F"> Féminin
+         <br><br>
+        
+        <input type="checkbox" name="debutant" id="debutant" checked>
+        <label for="debutant">Je débute en PHP</label>
+         <br><br>
+        <input type="submit" name="btok" value="Envoyer">
+    </form>
+    <hr>
+</body>
+</html>
